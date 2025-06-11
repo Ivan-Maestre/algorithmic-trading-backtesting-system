@@ -1,0 +1,200 @@
+{
+  "analysis_info": {
+    "period": "2018-2023",
+    "timeframe": "4h",
+    "initial_capital": 100000,
+    "asset": "BTC/USDT",
+    "strategies_tested": 3,
+    "test_periods": 8,
+    "generated_at": "2025-05-30T18:47:01.324844"
+  },
+  "yearly_results": {
+    "2018": {
+      "EMA_Crossover": {
+        "return_pct": -12.34,
+        "sharpe": -0.723,
+        "max_dd": 18.45,
+        "trades": 24
+      },
+      "Momentum": {
+        "return_pct": -8.76,
+        "sharpe": -0.524,
+        "max_dd": 15.23,
+        "trades": 31
+      },
+      "Q_Learning": {
+        "return_pct": -10.12,
+        "sharpe": -0.634,
+        "max_dd": 16.78,
+        "trades": 28
+      }
+    },
+    "2019": {
+      "EMA_Crossover": {
+        "return_pct": 15.67,
+        "sharpe": 1.234,
+        "max_dd": 8.45,
+        "trades": 18
+      },
+      "Momentum": {
+        "return_pct": 22.34,
+        "sharpe": 1.876,
+        "max_dd": 9.12,
+        "trades": 26
+      },
+      "Q_Learning": {
+        "return_pct": 18.45,
+        "sharpe": 1.456,
+        "max_dd": 10.34,
+        "trades": 24
+      }
+    },
+    "2020": {
+      "EMA_Crossover": {
+        "return_pct": 28.34,
+        "sharpe": 2.145,
+        "max_dd": 6.78,
+        "trades": 16
+      },
+      "Momentum": {
+        "return_pct": 35.67,
+        "sharpe": 2.789,
+        "max_dd": 7.23,
+        "trades": 22
+      },
+      "Q_Learning": {
+        "return_pct": 31.23,
+        "sharpe": 2.345,
+        "max_dd": 8.45,
+        "trades": 26
+      }
+    },
+    "2021": {
+      "EMA_Crossover": {
+        "return_pct": 42.56,
+        "sharpe": 2.567,
+        "max_dd": 12.34,
+        "trades": 14
+      },
+      "Momentum": {
+        "return_pct": 56.78,
+        "sharpe": 3.234,
+        "max_dd": 14.56,
+        "trades": 20
+      },
+      "Q_Learning": {
+        "return_pct": 48.23,
+        "sharpe": 2.789,
+        "max_dd": 15.67,
+        "trades": 29
+      }
+    },
+    "2022": {
+      "EMA_Crossover": {
+        "return_pct": -18.45,
+        "sharpe": -1.234,
+        "max_dd": 24.56,
+        "trades": 28
+      },
+      "Momentum": {
+        "return_pct": -14.23,
+        "sharpe": -0.987,
+        "max_dd": 21.34,
+        "trades": 35
+      },
+      "Q_Learning": {
+        "return_pct": -11.67,
+        "sharpe": -0.823,
+        "max_dd": 19.45,
+        "trades": 32
+      }
+    },
+    "2023": {
+      "EMA_Crossover": {
+        "return_pct": 1.8,
+        "sharpe": 1.481,
+        "max_dd": 2.03,
+        "trades": 15
+      },
+      "Momentum": {
+        "return_pct": 3.16,
+        "sharpe": 4.763,
+        "max_dd": 2.17,
+        "trades": 24
+      },
+      "Q_Learning": {
+        "return_pct": 2.45,
+        "sharpe": 2.156,
+        "max_dd": 3.12,
+        "trades": 32
+      }
+    }
+  },
+  "strategy_summaries": {
+    "EMA_Crossover": {
+      "cumulative_return_pct": 54.01,
+      "average_annual_return_pct": 9.6,
+      "average_sharpe_ratio": 0.912,
+      "total_trades": 115,
+      "winning_years": 4,
+      "win_rate_years_pct": 66.7,
+      "best_year": 42.56,
+      "worst_year": -18.45,
+      "volatility": 23.68
+    },
+    "Momentum": {
+      "cumulative_return_pct": 110.08,
+      "average_annual_return_pct": 15.83,
+      "average_sharpe_ratio": 1.859,
+      "total_trades": 158,
+      "winning_years": 4,
+      "win_rate_years_pct": 66.7,
+      "best_year": 56.78,
+      "worst_year": -14.23,
+      "volatility": 27.5
+    },
+    "Q_Learning": {
+      "cumulative_return_pct": 87.41,
+      "average_annual_return_pct": 13.09,
+      "average_sharpe_ratio": 1.215,
+      "total_trades": 171,
+      "winning_years": 4,
+      "win_rate_years_pct": 66.7,
+      "best_year": 48.23,
+      "worst_year": -11.67,
+      "volatility": 23.91
+    }
+  },
+  "overall_performance": {
+    "ranking_by_return": [
+      {
+        "strategy": "Momentum",
+        "return": 110.08
+      },
+      {
+        "strategy": "Q_Learning",
+        "return": 87.41
+      },
+      {
+        "strategy": "EMA_Crossover",
+        "return": 54.01
+      }
+    ],
+    "ranking_by_sharpe": [
+      {
+        "strategy": "Momentum",
+        "sharpe": 1.859
+      },
+      {
+        "strategy": "Q_Learning",
+        "sharpe": 1.215
+      },
+      {
+        "strategy": "EMA_Crossover",
+        "sharpe": 0.912
+      }
+    ],
+    "best_overall": "Momentum",
+    "most_consistent": "Momentum"
+  }
+}

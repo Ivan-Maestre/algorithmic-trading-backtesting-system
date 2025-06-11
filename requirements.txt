@@ -1,0 +1,52 @@
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Financial Data Sources
+python-binance>=1.0.0
+yfinance>=0.2.0
+alpha-vantage>=2.3.0
+
+# Visualization
+matplotlib>=3.5.0
+plotly>=5.15.0
+seaborn>=0.11.0
+
+# Machine Learning (for RL Strategy)
+scikit-learn>=1.1.0
+tensorflow>=2.10.0
+
+# Statistical Analysis
+scipy>=1.9.0
+statsmodels>=0.13.0
+
+# Data Storage
+tables>=3.7.0  # For HDF5 support
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Configuration Management
+pyyaml>=6.0
+configparser>=5.3.0
+
+# Logging and Utilities
+loguru>=0.7.0
+tqdm>=4.64.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.2.0
+
+# Development Tools
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.991
+
+# Jupyter for Analysis
+jupyter>=1.0.0
+ipykernel>=6.15.0
+
+# Performance Optimization
+numba>=0.56.0  # For numerical computation speedup 
